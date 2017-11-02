@@ -1,0 +1,8 @@
+framework module "Algorithm" {
+	header "ref.h"
+    header "Algorithm.objc.h"
+    header "Universe.objc.h"
+    header "Algorithm.h"
+
+    export *
+}
