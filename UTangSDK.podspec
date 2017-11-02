@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
 #  s.libraries  = 'sqlite3.0', 'z', 'c++'
   s.vendored_libraries = "UTangSDK/*.{a}"
   s.vendored_frameworks = "UTangSDK/*.{framework}"
+  s.dependency 'FMDB'
 
 
 end
